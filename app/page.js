@@ -871,8 +871,11 @@ export default function Home() {
                   <ArrowRight size={16} className="transition-transform group-hover:translate-x-0.5" />
                 </span>
               </Link>
-              <Link
-                href="#contact"
+              <a
+                href="/cv.pdf"
+                download="Basmalla_Said_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-6 py-2.5 text-sm font-medium text-white backdrop-blur-md transition-all duration-300 hover:border-cyan-400/40 hover:bg-cyan-400/5"
               >
                 <Download
@@ -880,7 +883,7 @@ export default function Home() {
                   className="transition-transform duration-300 group-hover:animate-bounce"
                 />
                 Download CV
-              </Link>
+              </a>
             </motion.div>
           </motion.div>
 
